@@ -1,0 +1,166 @@
+POST /sim/endpoint/supplier/upsert HTTP/1.1
+Host: 192.168.5.68:10281
+Accept: application/json
+x-zycus-integrationTrackingNumber: OutBoundTracker1234
+x-zycus-tenantId: 772f6112-3d8d-437b-b0b7-07ad25a189ac
+Content-Type: application/json
+Cache-Control: no-cache
+Postman-Token: ff9275e3-bfc1-903d-a1cd-791dd33b25f8
+
+
+http://192.168.5.68:10281/sim/endpoint/supplier/upsert
+{
+  "IntegrationEntities": {
+    "integrationEntity": [
+      {
+        "integrationEntityDetails": {
+          "Supplier": {
+            "Insurancedetails": {
+              "Is_Insurance_Waiver": "1",
+              "Insurance_Carrier": "fsfsf",
+              "Insurance_Type": "Worker Comp",
+              "Coverage_Amount": "345",
+              "Waiver_Comment": "sfsfsf",
+              "Best_Financial_Strength_Rating": "10",
+              "Best_Financial_Size_Rating": "10",
+              "Waiver_Expiration_Date": "42342342",
+              "Insurance_Req_Ack": "1",
+              "Insurance_Expiration_Date": "35345",
+              "Insurance_Disqual_Reason": "Inadequate",
+              "Insurance_Validation_Status": "Qualif",
+              "Is_Supp_Self_Insured": "1"
+            },
+            "Financialratio": {
+              "Quick_Ratio": "23",
+              "Net_Profit_Ratio": "23",
+              "Profit_Ratio": "12",
+              "Recent_Financial_Year": "2007",
+              "Current_Profit_Ratio": "2"
+            },
+            "Bankdetails": {
+              "Account_Status": "Act",
+              "Account_Holder_Name": "dgdg",
+              "Country_Key": "dgdg",
+              "Bank_Phone_Number": "234234",
+              "Bank_Name": "ffsfsdf",
+              "Iban": "sdff",
+              "Account_Type": "SVNG",
+              "Bank_Key": "xdgfsdgf",
+              "Bank_Account_Number": "33535"
+            },
+            "Financialinformation": {
+              "Financial_Validation_Status": "1",
+              "Is_Bankrupt": "1",
+              "Credit_Rating": "gjj",
+              "Banruptcy_Date": "5345345",
+              "Stock_Symbol": "sdf",
+              "Current_D_And_B_Rating": "asdasd",
+              "Credit_Rating_Bureau": "sfsf"
+            },
+            "Supplier_Status": "ACTIVE",
+            "Smdmmastertbl": {
+              "Dba_Alias": [
+                {
+                  "Name": "AT Aliaas 1 900Preprod2017",
+                  "isDelete": false,
+                  "Nametype": "DBA",
+                  "Separateaddress": "Yes",
+                  "Dba_External_Id": "1523524931306"
+                }
+              ]
+            },
+            "Contactdetails": {
+              "Contactdetail": [
+                {
+                  "Allowed_Portal_Side_Products": "SIM",
+                  "isDelete": false,
+                  "Create_Portal_Login": "Yes",
+                  "Email": "zdoc.madhura@tms.com",
+                  "Contact_Type": "After Hrs.",
+                  "Last_Name": "kasar",
+                  "First_Name": "madhura",
+                  "delete": false,
+                  "Phone_No": "989345435",
+                  "Contact_External_Id": "ATCONTACT1DDD",
+                  "Title": "zxc",
+                  "Address_External_Id": "123456789"
+                }
+              ]
+            },
+            "System_Code": "1",
+            "Companydetails": {
+              "Keyword": "ZDoc100",
+              "Website": "www.google.co.in",
+              "Taxid": "3234234",
+              "Duns_Number": "897856453",
+              "Wx_Recvd_Date": 0,
+              "Gross_Annual_Sales": 34,
+              "Company_Type_Fix": "SUPPLIER",
+              "Legal_Comp_Name": "green152352493132410",
+              "No_Emp": 6,
+              "Year_Comp_Estd": 2016
+            },
+            "External_Supplier_Id": "1523524931339",
+            "Mandatory_Fields_Flag": "MINIMUM",
+            "Smdmaddresstbl": {
+              "Location": [
+                {
+                  "External_Supplier_Id": "1523524931339",
+                  "isDelete": false,
+                  "Phone": "  12345678  ",
+                  "State": "IN-MH",
+                  "Acct_Grp_Id": "HQ",
+                  "Address2": "juhi  ",
+                  "Address1": "adafhjfsdasd",
+                  "delete": false,
+                  "Zip": "  dtrd  ",
+                  "Country": "IND",
+                  "City": "Mumbai",
+                  "Address_External_Id": "123456789",
+                  "Pobox": "123456789"
+                }
+              ]
+            },
+            "Paymentterms": {
+              "Payment_Terms": "15D",
+              "Po_Revision": "FAX",
+              "Payment_Type_Indicator": "Cheque",
+              "Currency_Type": "CHF",
+              "Po_Submission": "POSTAL",
+              "Transmission_Mode_Indicator": "Fax"
+            },
+            "Smdmtaxinformationtbl": {
+              "Abn_Number_Fixed": "31231721218",
+              "Acn_Number_Fixed": "989768123"
+            },
+            "Purchasingdetails": {
+              "Anticipated_Annual_Spend": "L5K",
+              "Edi_Partner_Id": "com",
+              "Edi_Object_Mode": "XML",
+              "Justification_Statement": "Fabrication",
+              "Supplier_Indicator": "National",
+              "Edi_Gs_Qualifier": "xcv",
+              "Anticipated_Annual_Tx": "l12",
+              "Competitor_Flag": "1",
+              "Goods_Receipts_Based_Invoice": "1",
+              "Is_Contracted_Supplier": "1",
+              "Edi_Comment": "com",
+              "Inco_Terms": "FAS",
+              "Edi_Indicator": "1",
+              "Edi_Gs_Address": "xcv",
+              "Edi_Delivery_Method": "XML",
+              "Supplier_Type": "Trade"
+            },
+            "Forms": {},
+            "Facility_Code": "0001",
+            "Supplier_Type": "Operational"
+          }
+        },
+        "integrationEntityHeader": {
+          "referenceCodeForEntity": "RFC900Preprod2017",
+          "integrationTrackingNumber": "TrackSourceIntegrated900Preprod2017UUID"
+        }
+      }
+    ]
+  }
+} 
